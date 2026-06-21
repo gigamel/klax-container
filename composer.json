@@ -1,0 +1,19 @@
+{
+  "name": "klax/container",
+  "description": "DI Container",
+  "autoload": {
+    "psr-4": {
+      "Klax\\Container\\": "src/"
+    }
+  },
+  "require": {
+    "klax/container-contract": "^0.0.1",
+    "php": "^8.3"
+  },
+  "repositories": {
+    "klax/container-contract": {
+      "type": "vcs",
+      "url": "https://github.com/gigamel/klax-container-contract.git"
+    }
+  }
+}
